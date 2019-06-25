@@ -1,27 +1,29 @@
-# NgReactiveForm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+https://codewithmosh.com/courses/206545/lectures/3196339
 
-## Development server
+ng new authors
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ng g c authors
+ng g s authors
+ng g c contact-form
 
-## Code scaffolding
+ng serve            -- localhost:4200
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Git
+    rm -rf .git
+    git push -u origin master
 
-## Build
+npm i bootstrap --save
+npm i font-awesome --save
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+label+input[type='text'].form-control   
 
-## Running unit tests
+style.css
+    @import '~bootstrap/dist/css/bootstrap.css';
+    @import "~font-awesome/css/font-awesome.css";
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+zen coding
+    ul>li       + Tab
 
-## Running end-to-end tests
+Cntl .          - import the focused entity
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
